@@ -1,0 +1,7 @@
+
+@mixin respond-to($media) {
+    @if $media == mobile {
+      @media (max-width: 1024px) { @content; }
+    }
+}
+$color-black: #000;
